@@ -1,0 +1,106 @@
+body {
+  margin: 0;
+  padding: 0;
+  font-family: 'Arial', sans-serif;
+  background-color: #fafafa;
+}
+
+.login-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+.logo {
+  width: 30%;
+  height: 20%;
+  border-radius: 50%;
+  margin: 30px 0 10px 0;
+  padding: 5px;
+}
+
+.login-div {
+  background-color: #fff;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  width: 350px; /* Or any other fixed width */
+  margin: auto; /* This will center the .login-div if its parent is the body or another flex container */
+  padding: 20px;
+  border-radius: 5px;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.inside-div {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.role-button.active {
+  background-color: #3897f0;
+  color: #ffffff;
+}
+
+
+.form {
+  width: 100%;
+}
+
+.input-field {
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 10px;
+  border: 1px solid #dbdbdb;
+  border-radius: 3px;
+  background-color: #fafafa;
+}
+
+.submit-button {
+  width: 100%;
+  padding: 7px;
+  border: none;
+  border-radius: 4px;
+  background-color: #3897f0;
+  color: #ffffff;
+  margin-top: 10px;
+  cursor: pointer;
+}
+
+.role-button {
+  width: 59%;
+  padding: 7px;
+  margin: 10px 1% 10px; /* Adjusted to maintain proper spacing */
+  border: none;
+  border-radius: 4px;
+  background-color: #3897f0;
+  color: #ffffff;
+  margin-top: 10px;
+  cursor: pointer;
+ 
+}
+
+.role-selection {
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+  margin-bottom: 10px;
+}
+
+.forgot-password-link {
+  color: #00376b;
+  text-decoration: none;
+  margin-top: 10px;
+  text-align: right;
+}
+
+.signup-link {
+  color: #00376b;
+  text-decoration: none;
+  margin-top: 10px;
+  align-items: center;
+
+}
+
